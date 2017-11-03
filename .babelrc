@@ -1,5 +1,5 @@
 {
-  "presets": [["es2015", { "modules": false }], "react", "stage-1"],
+  "presets": [["es2015", { "modules": "umd" }], "react", "stage-1"],
   "plugins": ["transform-decorators-legacy"],
   "env": {
     "production": {
