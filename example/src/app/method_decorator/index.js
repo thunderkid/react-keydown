@@ -22,6 +22,9 @@ class MethodDecorator extends React.Component {
         { this.state.hello &&
           <h1>Enter is key code {Keys.enter}!</h1>
         }
+
+        <input type="text" name="fname"/>
+
         <div>And click again inside/outside box to see scoping.</div>
       </div>
     );
